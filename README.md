@@ -37,10 +37,6 @@
 
 ![Deploy Status](https://github.com/MegatronK9/Megatron/actions/workflows/deploy.yml/badge.svg)
 
-# ⚡ Megatron K9 - WhatsApp Bot of Chaos
-
-Megatron K9 is a savage WhatsApp bot built with Baileys. It roasts, memes, and manages groups like a digital warlord. Designed for meme lovers, chaos engineers, and anyone who wants their WhatsApp groups to feel alive.
-
 ---
 
 ## 🚀 Features
@@ -91,7 +87,20 @@ Scan the QR code in your terminal to link your WhatsApp. Megatron K9 will awaken
 | !roastme        | Drops a random roast                 |
 | !selfdestruct   | Deletes bot messages from chat       |
 
-You can customize commands in /commands folder and add new ones using the modular system.
+👑 MEGATRON K9 — RUNNER COMMANDS
+Mode: SAVAGE | Status: LIVE | Version: vX.X.X
+
+📜 PUBLIC COMMANDS
+.menu / .help   → Show all available commands
+.ping           → Check bot speed (latency)
+.owner          → Get Overlord contact link
+.version        → Show current bot version
+
+⚡ HOW TO USE
+• Prefix every command with a dot `.`
+• Commands are NOT case‑sensitive
+• Works in private chat or groups
+• Example: .ping
 
 ---
 
