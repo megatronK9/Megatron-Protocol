@@ -1,27 +1,13 @@
 <p align="center">
-  <img src="https://img.shields.io/github/license/MegatronK9/Megatron-Runner?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/MegatronK9/Megatron-Runner?style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/MegatronK9/Megatron-Runner?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/MegatronK9/Megatron?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/MegatronK9/Megatron?style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/MegatronK9/Megatron?style=for-the-badge">
   <img src="https://img.shields.io/badge/Mode-Savage-red?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Chaos%20Level-9000-purple?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Chaos-Level-9000-purple?style=for-the-badge">
   <img src="https://img.shields.io/badge/Status-Deploying-blue?style=for-the-badge">
-  <img src="https://img.shields.io/github/package-json/v/MegatronK9/Megatron-Runner?label=Version&style=for-the-badge&color=orange">
-  <img src="https://img.shields.io/github/last-commit/MegatronK9/Megatron-Runner?label=Last%20Updated&style=for-the-badge&color=yellow">
 </p>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="500">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/🔥-MegatronK9-red?style=for-the-badge">
-</p>
-
----
-
-# ⚡ Megatron K9
-
----
+<img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="300"/>
 
 ![🔥](https://img.shields.io/badge/🔥-MegatronK9-red?style=for-the-badge)
 
@@ -58,54 +44,33 @@ Megatron K9 is a savage WhatsApp bot built with Baileys. It roasts, memes, and m
 
 ## 🛠️ Setup
 
-## 📥 Download & Install (Runner)
+```bash
+npm install
+node index.js
 
-### 1️⃣ Install Termux & Node.js
-
-🔄 Auto‑Relink Fury Protocol
-If the bot detects 3× Bad MAC errors:
-- Old session is wiped
-- Furious red QR alert appears
-- Bot restarts — scan the new QR to relink
+Scan the QR code in your terminal to link your WhatsApp. Megatron K9 will awaken and begin its reign.
 
 ---
-🎯 Command List
 
-Public Commands
-| Command       | Description |
-|---------------|-------------|
-| !menu / !help | Show command menu |
-| !ping       | Latency scan with timestamp |
-| !bug N      | Link storm (N=1–10) |
-| !fight @user| Defensive clapback |
-| !song query | Search links for music |
-| !playlist   | MegatronK9 YouTube playlist |
-| !ask text   | Ask AI brain (if backend set) |
-| !about      | Bot lore |
-| !id         | Show your JID |
-| !save       | Save memory & status log |
-| !uptime     | Bot uptime |
-| !status     | Show bot status |
+🤖 Commands
 
-Owner Commands
-| Command       | Description |
-|---------------|-------------|
-| .security off/medium/aggressive | Set security mode |
-| .spam on/off | Toggle unblock spam message |
-| !block / !unblock | Block/unblock target |
-| !delete N   | Delete last N bot messages |
-| !ban        | Ban target (private builds) |
-| !nuke       | Nuke group (private builds) |
-| !promote    | Promote member (private builds) |
-| !demote     | Demote member (private builds) |
-| !shutdown   | Shutdown bot |
-| !autoview on/off | Toggle status auto-view |
-| !autoreact on/off | Toggle status auto-react |
+| Command           | Description                          |
+|------------------|--------------------------------------|
+| !ping           | Bot status check                     |
+| !meme           | Sends a random chaos meme            |
+| !mode savage    | Switches bot personality to savage   |
+| !tagall         | Tags everyone in the group           |
+| !roastme        | Drops a random roast                 |
+| !selfdestruct   | Deletes bot messages from chat       |
+
+You can customize commands in /commands folder and add new ones using the modular system.
 
 ---
+
 
 !QR Scan
 !Meme Reply
+!Command Showcase
 
 ---
 
@@ -115,31 +80,8 @@ Built by MegatrօռK9 with chaos, and memes.
 Inspired by the dream of digital immortality and WhatsApp domination.
 
 ---
+
 📜 License
 
 This project is licensed under the MIT License.  
 Feel free to fork, remix, and deploy—but give credit where it’s due.
-
-
-```bash
-pkg update && pkg upgrade -y
-pkg install nodejs -y
-git clone https://github.com/MegatronK9/Megatron-Runner.git
-cd Megatron-Runner
-
-#install Dependancies
-npm install --production
-
-#Link
-node megatron-locked.js
-
-###Keep alive with pm2
-npm install -g pm2
-pm2 start megatron-locked.js --name megatron
-pm2 save
-
-#RECEIVE AND CHECK FOR UPDATE !
-./update.sh
-
-Scan the QR code in your terminal to link your WhatsApp. Megatron K9 will awaken and begin its reign.
-
