@@ -61,27 +61,6 @@ Megatron K9 is a savage WhatsApp bot built with Baileys. It roasts, memes, and m
 ## 📥 Download & Install (Runner)
 
 ### 1️⃣ Install Termux & Node.js
-```bash
-pkg update && pkg upgrade -y
-pkg install nodejs -y
-git clone https://github.com/MegatronK9/Megatron-Runner.git
-cd Megatron-Runner
-
-#install Dependancies
-npm install --production
-
-#Link
-node megatron-locked.js
-
-###Keep alive with pm2
-npm install -g pm2
-pm2 start megatron-locked.js --name megatron
-pm2 save
-
-#RECEIVE AND CHECK FOR UPDATE !
-./update.sh
-
-Scan the QR code in your terminal to link your WhatsApp. Megatron K9 will awaken and begin its reign.
 
 🔄 Auto‑Relink Fury Protocol
 If the bot detects 3× Bad MAC errors:
@@ -136,8 +115,31 @@ Built by MegatrօռK9 with chaos, and memes.
 Inspired by the dream of digital immortality and WhatsApp domination.
 
 ---
-
 📜 License
 
 This project is licensed under the MIT License.  
 Feel free to fork, remix, and deploy—but give credit where it’s due.
+
+
+```bash
+pkg update && pkg upgrade -y
+pkg install nodejs -y
+git clone https://github.com/MegatronK9/Megatron-Runner.git
+cd Megatron-Runner
+
+#install Dependancies
+npm install --production
+
+#Link
+node megatron-locked.js
+
+###Keep alive with pm2
+npm install -g pm2
+pm2 start megatron-locked.js --name megatron
+pm2 save
+
+#RECEIVE AND CHECK FOR UPDATE !
+./update.sh
+
+Scan the QR code in your terminal to link your WhatsApp. Megatron K9 will awaken and begin its reign.
+
