@@ -1,22 +1,22 @@
 <!-- Overlord Banner -->
 <p align="center">
-  <img src="https://media.tenor.com/0W0zj5zvZyIAAAAC/transformers-logo.gif" width="120" alt="Transformers Logo">
+  <img src="https://media.tenor.com/0W0zj5zvZyIAAAAC/transformers-logo.gif" width="140" alt="Transformers Logo">
 </p>
 
-<h1 align="center">🔥 I AM MEGATRON 🔥</h1>
+<h1 align="center" style="color:#ff0000;">🔥 I AM <span style="color:#FFD700;">MEGATRON</span> 🔥</h1>
 
 <p align="center">
   <a href="https://github.com/megatronK9/Megatron-Runner/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/megatronK9/Megatron-Runner?color=red&style=for-the-badge" alt="License">
+    <img src="https://img.shields.io/github/license/megatronK9/Megatron-Runner?color=FFD700&label=LICENSE&style=for-the-badge" alt="License">
   </a>
   <a href="https://github.com/megatronK9/Megatron-Runner/stargazers">
-    <img src="https://img.shields.io/github/stars/megatronK9/Megatron-Runner?style=for-the-badge" alt="Stars">
+    <img src="https://img.shields.io/github/stars/megatronK9/Megatron-Runner?color=ff0000&style=for-the-badge" alt="Stars">
   </a>
   <a href="https://github.com/megatronK9/Megatron-Runner/network/members">
-    <img src="https://img.shields.io/github/forks/megatronK9/Megatron-Runner?style=for-the-badge" alt="Forks">
+    <img src="https://img.shields.io/github/forks/megatronK9/Megatron-Runner?color=ff0000&style=for-the-badge" alt="Forks">
   </a>
-  <img src="https://img.shields.io/badge/Mode-SAVAGE-red?style=for-the-badge" alt="Mode">
-  <img src="https://img.shields.io/github/package-json/v/megatronK9/Megatron-Runner?color=yellow&style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/Mode-SAVAGE-black?style=for-the-badge" alt="Mode">
+  <img src="https://img.shields.io/github/package-json/v/megatronK9/Megatron-Runner?color=FFD700&label=VERSION&style=for-the-badge" alt="Version">
   <img src="https://img.shields.io/badge/Status-DEPLOYING-orange?style=for-the-badge" alt="Status">
 </p>
 
