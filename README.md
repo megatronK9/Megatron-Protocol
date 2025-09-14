@@ -54,6 +54,21 @@ Megatron K9 is a savage WhatsApp bot built with Baileys. It roasts, memes, and m
 - 🧨 Command modules that slap harder than a meme war
 
 ---
+👑 MEGATRON K9 — COMMANDS
+Mode: SAVAGE | Status: LIVE | Version: vX.X.X
+
+📜 PUBLIC COMMANDS
+.menu / .help   → Show all available commands
+.ping           → Check bot speed (latency)
+.owner          → Get Overlord contact link
+.version        → Show current bot version
+
+⚡ HOW TO USE
+• Prefix every command with a dot `.`
+• Commands are NOT case‑sensitive
+• Works in private chat or groups
+• Example: .ping
+---
 
 ## 🛠️ Setup
 
