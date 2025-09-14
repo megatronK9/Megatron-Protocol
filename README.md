@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://img.shields.io/github/license/MegatronK9/Megatron?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/MegatronK9/Megatron?style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/MegatronK9/Megatron?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/MegatronK9/Megatron-Runner?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/MegatronK9/Megatron-Runner?style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/MegatronK9/Megatron-Runner?style=for-the-badge">
   <img src="https://img.shields.io/badge/Mode-Savage-red?style=for-the-badge">
   <img src="https://img.shields.io/badge/Chaos%20Level-9000-purple?style=for-the-badge">
   <img src="https://img.shields.io/badge/Status-Deploying-blue?style=for-the-badge">
-  <img src="https://img.shields.io/github/package-json/v/MegatronK9/Megatron?label=Version&style=for-the-badge&color=orange">
-  <img src="https://img.shields.io/github/last-commit/MegatronK9/Megatron?label=Last%20Updated&style=for-the-badge&color=yellow">
+  <img src="https://img.shields.io/github/package-json/v/MegatronK9/Megatron-Runner?label=Version&style=for-the-badge&color=orange">
+  <img src="https://img.shields.io/github/last-commit/MegatronK9/Megatron-Runner?label=Last%20Updated&style=for-the-badge&color=yellow">
 </p>
 
 <p align="center">
