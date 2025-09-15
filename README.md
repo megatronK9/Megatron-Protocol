@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/Mode-SAVAGE-black?style=for-the-badge">
   <img src="https://img.shields.io/github/package-json/v/megatronK9/Megatron-Runner?color=FFD700&label=VERSION&style=for-the-badge">
   <img src="https://img.shields.io/github/last-commit/megatronK9/Megatron-Runner?color=blue&style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-LIVE-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-DEPLOYING-orange?style=for-the-badge">
 </p>
 
 <p align="center">
