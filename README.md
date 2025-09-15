@@ -16,7 +16,9 @@
   <img src="https://img.shields.io/badge/Status-LIVE-brightgreen?style=for-the-badge">
 </p>l
 
-<img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="300"/>
+<p align="center">
+  <img src="https://media.tenor.com/2ZfZkqLxRZIAAAAC/transformers-optimus-prime-the-legend-exists.gif" width="300" alt="The Legend Exists">
+</p>
 
 ![🔥](https://img.shields.io/badge/🔥-Me/gatronK9-red?style=for-the-badge)
 
