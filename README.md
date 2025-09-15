@@ -3,6 +3,10 @@
   <img src="https://media.tenor.com/0W0zj5zvZyIAAAAC/transformers-logo.gif" width="140" alt="Transformers Logo">
 </p>
 
+<p align="center">
+  <img src="https://media.tenor.com/0W0zj5zvZyIAAAAC/transformers-logo.gif" width="140" alt="Transformers Emblem">
+</p>
+
 <h1 align="center">🔥 I AM <span style="color:#FFD700;">MEGATRON</span> 🔥</h1>
 
 <p align="center">
@@ -17,6 +21,8 @@
   </a>
   <img src="https://img.shields.io/badge/Mode-SAVAGE-black?style=for-the-badge" alt="Mode">
   <img src="https://img.shields.io/github/package-json/v/megatronK9/Megatron-Runner?color=FFD700&label=VERSION&style=for-the-badge" alt="Version">
+<img src="https://img.shields.io/github/last-commit/megatronK9/Megatron-Runner?color=blue&style=for-the-badge" alt="Last Updated">
+
   <img src="https://img.shields.io/badge/Status-DEPLOYING-orange?style=for-the-badge" alt="Status">
 </p>
 
