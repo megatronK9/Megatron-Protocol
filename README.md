@@ -1,7 +1,7 @@
 <!-- Overlord Banner -->
 
 <p align="center">
-  <img src="https://camo.githubusercontent.com/3d68f12d1cf271229468c2e5cb45aeff14d6a408bf6cde4028ba26fdfd5d2382/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f336f376144327361616c42777766744249592f67697068792e676966" width="180" alt="Transformers Emblem">
+  <img src="https://media.giphy.com/media/im1xKpjEwdQuk/giphy.gif" width="300" alt="Transformers Logo">
 </p>
 
 <h1 align="center">🔥 I AM <span style="color:#FFD700;">MEGATRON</span> 🔥</h1>
@@ -17,8 +17,10 @@
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/im1xKpjEwdQuk/giphy.gif" width="300" alt="Transformers Logo">
+  <img src="https://media.tenor.com/your-gif-id.gif" width="300" alt="Thunderwing Matrix">
 </p>
+
+<h1 align="center">🔥 I AM <span style="color:#FFD700;">MEGATRON</span> 🔥</h1>
 
 ![🔥](https://img.shields.io/badge/🔥-MegatronK9-red?style=for-the-badge)
 
