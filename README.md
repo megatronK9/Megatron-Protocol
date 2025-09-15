@@ -115,7 +115,7 @@ pm2 save
 
 🧠 Credits
 
-Built by MegatrօռK9 with chaos, and memes.  
+Built by MegatrօռK9 with chaos.  
 Inspired by the dream of digital immortality and WhatsApp domination.
 
 ---
