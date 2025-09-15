@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="https://media.tenor.com/your-gif-id.gif" width="300" alt="Thunderwing Matrix">
+  <img src="https://media.tenor.com/0W0zj5zvZyIAAAAC/transformers-logo.gif" width="300" alt="Transformers Logo Pulse">
 </p>
 
 <h1 align="center">🔥 I AM <span style="color:#FFD700;">MEGATRON</span> 🔥</h1>
