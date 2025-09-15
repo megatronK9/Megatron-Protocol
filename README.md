@@ -1,27 +1,20 @@
 <!-- Overlord Banner -->
 
 <p align="center">
-  <img src="https://media.tenor.com/0W0zj5zvZyIAAAAC/transformers-logo.gif" width="140" alt="Transformers Emblem">
+  <img src="https://camo.githubusercontent.com/3d68f12d1cf271229468c2e5cb45aeff14d6a408bf6cde4028ba26fdfd5d2382/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f336f376144327361616c42777766744249592f67697068792e676966" width="180" alt="Transformers Emblem">
 </p>
 
 <h1 align="center">🔥 I AM <span style="color:#FFD700;">MEGATRON</span> 🔥</h1>
 
 <p align="center">
-  <a href="https://github.com/megatronK9/Megatron-Runner/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/megatronK9/Megatron-Runner?color=FFD700&label=LICENSE&style=for-the-badge" alt="License">
-  </a>
-  <a href="https://github.com/megatronK9/Megatron-Runner/stargazers">
-    <img src="https://img.shields.io/github/stars/megatronK9/Megatron-Runner?color=ff0000&style=for-the-badge" alt="Stars">
-  </a>
-  <a href="https://github.com/megatronK9/Megatron-Runner/network/members">
-    <img src="https://img.shields.io/github/forks/megatronK9/Megatron-Runner?color=ff0000&style=for-the-badge" alt="Forks">
-  </a>
-  <img src="https://img.shields.io/badge/Mode-SAVAGE-black?style=for-the-badge" alt="Mode">
-  <img src="https://img.shields.io/github/package-json/v/megatronK9/Megatron-Runner?color=FFD700&label=VERSION&style=for-the-badge" alt="Version">
-<img src="https://img.shields.io/github/last-commit/megatronKMegatron-Runnerer?color=blue&style=for-the-badge" alt="Last Updated">
-
-  <img src="https://img.shields.io/badge/Status-DEPLOYING-blue?style=for-the-badge" alt="Status">
-</p>
+  <img src="https://img.shields.io/github/license/megatronK9/Megatron-Runner?color=FFD700&label=LICENSE&style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/megatronK9/Megatron-Runner?color=ff0000&style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/megatronK9/Megatron-Runner?color=ff0000&style=for-the-badge">
+  <img src="https://img.shields.io/badge/Mode-SAVAGE-black?style=for-the-badge">
+  <img src="https://img.shields.io/github/package-json/v/megatronK9/Megatron-Runner?color=FFD700&label=VERSION&style=for-the-badge">
+  <img src="https://img.shields.io/github/last-commit/megatronK9/Megatron-Runner?color=blue&style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-LIVE-brightgreen?style=for-the-badge">
+</p>l
 
 <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="300"/>
 
