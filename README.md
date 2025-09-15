@@ -65,6 +65,14 @@
 | `.version`         | Bot version from package.json |
 
 ---
+Updated recent commands
+
+### 🕶️ Stealth Protocol
+- `.stealth` → Randomize fingerprint before QR scan
+- `.fingerprint current` → Show active stealth profile
+- `.rotate random` → Switch identity mid-deploy
+- `.vanish` → Full stealth purge + restart + QR prompt
+-
 
 ### ⚡ How to Use
 - Prefix every command with a dot `.`
