@@ -20,7 +20,7 @@
   <img src="https://media.giphy.com/media/im1xKpjEwdQuk/giphy.gif" width="300" alt="Transformers Logo">
 </p>
 
-![🔥](https://img.shields.io/badge/🔥-Me/gatronK9-red?style=for-the-badge)
+![🔥](https://img.shields.io/badge/🔥-MegatronK9-red?style=for-the-badge)
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MegatronK9&show_icons=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MegatronK9&layout=compact&theme=radical)
