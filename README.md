@@ -54,7 +54,7 @@
 
 > Mode: SAVAGE  
 > Status: LIVE  
-> Version: vX.X.X (auto-updates from package.json)
+> Version: vX.X.X (auto-updates)
 
 ---
 
