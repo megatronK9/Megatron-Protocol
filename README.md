@@ -1,5 +1,6 @@
 <!-- Overlord Banner -->
 
+<!-- Overlord Banner -->
 <p align="center">
   <img src="https://media.giphy.com/media/im1xKpjEwdQuk/giphy.gif" width="300" alt="Transformers Logo">
 </p>
@@ -7,13 +8,21 @@
 <h1 align="center">🔥 I AM <span style="color:#FFD700;">MEGATRON</span> 🔥</h1>
 
 <p align="center">
-  ![GitHub license](https://img.shields.io/github/license/MegatronK9/Megatron-Runner)
-  <img src="https://img.shields.io/github/stars/megatronK9/Megatron-Runner?color=ff0000&style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/megatronK9/Megatron-Runner?color=ff0000&style=for-the-badge">
-  <img src="https://img.shields.io/badge/Mode-SAVAGE-black?style=for-the-badge">
-  <img src="https://img.shields.io/github/package-json/v/megatronK9/Megatron-Runner?color=FFD700&label=VERSION&style=for-the-badge">
-  <img src="https://img.shields.io/github/last-commit/megatronK9/Megatron-Runner?color=blue&style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-LIVE-brightgreen?style=for-the-badge">
+  <a href="https://github.com/MegatronK9/Megatron-Runner/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/MegatronK9/Megatron-Runner?style=for-the-badge&color=brightgreen" alt="License">
+  </a>
+  <a href="https://github.com/MegatronK9/Megatron-Runner/blob/main/package.json">
+    <img src="https://img.shields.io/github/package-json/v/MegatronK9/Megatron-Runner?color=FFD700&label=VERSION&style=for-the-badge" alt="Version">
+  </a>
+  <a href="https://github.com/MegatronK9/Megatron-Runner/stargazers">
+    <img src="https://img.shields.io/github/stars/MegatronK9/Megatron-Runner?color=ff0000&style=for-the-badge" alt="Stars">
+  </a>
+  <a href="https://github.com/MegatronK9/Megatron-Runner/network/members">
+    <img src="https://img.shields.io/github/forks/MegatronK9/Megatron-Runner?color=ff0000&style=for-the-badge" alt="Forks">
+  </a>
+  <img src="https://img.shields.io/badge/Mode-SAVAGE-black?style=for-the-badge" alt="Mode">
+  <img src="https://img.shields.io/github/last-commit/MegatronK9/Megatron-Runner?color=blue&style=for-the-badge" alt="Last Commit">
+  <img src="https://img.shields.io/badge/Status-LIVE-brightgreen?style=for-the-badge" alt="Status">
 </p>
 
 <p align="center">
@@ -28,8 +37,7 @@
 ![Snake animation](https://github.com/MegatronK9/MegatronK9/blob/output/github-contribution-grid-snake.svg)
 
 [![Twitter](https://img.shields.io/badge/Twitter-@MegatronK9-blue?style=flat&logo=twitter)](https://twitter.com/MegatronK9)
----
-[![youtube](https://img.shields.io/badge/youtube-@MegatronK9-red?style=round&logo=youtube)](https://youtube.com/MegatronK9)
+[![YouTube](https://img.shields.io/badge/YouTube-@MegatronK9-red?style=round&logo=youtube)](https://youtube.com/MegatronK9)
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40"/>
 
@@ -37,26 +45,16 @@
 
 ---
 
-## 🚀 Features
-
-- 🔥 Meme replies with savage timing
-- 🧠 Personality switching (modes: chill, savage, cursed)
-- 🛡️ Anti-spam shields and message filters
-- 📊 Group diagnostics and activity logs
-- 🎭 Emoji menus and expressive reactions
-- 🧵 Universal message parsing (even in private chats)
-- 🧨 Command modules that slap harder than a meme war
-
----
 ## ⚡ MEGATRON‑RUNNER — COMMAND INDEX
 
 > Mode: SAVAGE  
 > Status: LIVE  
-> Version: vX.X.X (auto-updates)
+> Version: auto-updates from `package.json`
 
 ---
 
 ### 🧑‍🚀 Runner‑Only Commands
+
 | Command            | Description |
 |--------------------|-------------|
 | `.menu` / `.help`  | Show the full public command menu |
@@ -65,16 +63,18 @@
 | `.version`         | Bot version from package.json |
 
 ---
-Updated recent commands
 
 ### 🕶️ Stealth Protocol
-- `.stealth` → Randomize fingerprint before QR scan
-- `.fingerprint current` → Show active stealth profile
-- `.rotate random` → Switch identity mid-deploy
-- `.vanish` → Full stealth purge + restart + QR prompt
--
+
+- `.stealth` → Randomize fingerprint before QR scan  
+- `.fingerprint current` → Show active stealth profile  
+- `.rotate random` → Switch identity mid-deploy  
+- `.vanish` → Full stealth purge + restart + QR prompt  
+
+---
 
 ### ⚡ How to Use
+
 - Prefix every command with a dot `.`
 - Commands are NOT case-sensitive
 - Works in private chat or groups
@@ -82,63 +82,25 @@ Updated recent commands
 
 ---
 
-###  Deploy Ritual
----
-
-## 🛠️ Setup
+## 🛠️ Deploy Ritual
 
 ```bash
-
 pkg update && pkg upgrade -y
 pkg install nodejs -y
 git clone https://github.com/MegatronK9/Megatron-Runner.git
 cd Megatron-Runner
 
-#install Dependancies
+# Install dependencies
 npm install --production
 
-#Link
+# Link and awaken Megatron
 node megatron-locked.js
 
-Scan the QR code in your terminal to link your WhatsApp. Megatron K9 will awaken and begin its reign.
-
-###Keep alive with pm2 (optional)
+# Scan QR code to link WhatsApp
+# Keep alive with pm2 (optional)
 npm install -g pm2
 pm2 start megatron-locked.js --name megatron
 pm2 save
 
-(#RECEIVE AND CHECK FOR UPDATE !)
-
+# Update ritual
 ./update.sh
-
----
-```
-👑 MEGATRON K9 — OTHER COMMANDS
-
-| Command           | Description                          |
-|------------------|--------------------------------------|
-| !ping           | Bot status check                     |
-| !meme           | Sends a random chaos meme            |
-| !mode savage    | Switches bot personality to savage   |
-| !tagall         | Tags everyone in the group           |
-| !roastme        | Drops a random roast                 |
-| !selfdestruct   | Deletes bot messages from chat       |
-
----
-
-
-!QR Scan
-
----
-
-🧠 Credits
-
-Built by MegatrօռK9 with chaos.  
-Inspired by the dream of digital immortality and WhatsApp domination.
-
----
-
-📜 License
-
-This project is licensed under the MIT License.  
-Feel free to fork, remix, and deploy—but give credit where it’s due.
