@@ -7,7 +7,7 @@
 <h1 align="center">🔥 I AM <span style="color:#FFD700;">MEGATRON</span> 🔥</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/megatronK9/Megatron-Runner?color=FFD700&label=LICENSE&style=for-the-badge">
+  ![GitHub license](https://img.shields.io/github/license/MegatronK9/Megatron-Runner)
   <img src="https://img.shields.io/github/stars/megatronK9/Megatron-Runner?color=ff0000&style=for-the-badge">
   <img src="https://img.shields.io/github/forks/megatronK9/Megatron-Runner?color=ff0000&style=for-the-badge">
   <img src="https://img.shields.io/badge/Mode-SAVAGE-black?style=for-the-badge">
