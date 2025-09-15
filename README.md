@@ -17,10 +17,8 @@
 </p>
 
 <p align="center">
-  <img src="https://media.tenor.com/1ZbZkqLxRZIAAAAC/megatron-transformers.gif" width="300" alt="Megatron Walking">
+  <img src="https://media.tenor.com/your-thunderwing-id.gif" width="300" alt="Thunderwing Emblem">
 </p>
-
-<h1 align="center">🔥 I AM <span style="color:#FFD700;">MEGATRON</span> 🔥</h1>
 
 ![🔥](https://img.shields.io/badge/🔥-MegatronK9-red?style=for-the-badge)
 
