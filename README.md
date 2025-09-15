@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="https://media.tenor.com/0W0zj5zvZyIAAAAC/transformers-logo.gif" width="300" alt="Transformers Logo Pulse">
+  <img src="https://media.tenor.com/1ZbZkqLxRZIAAAAC/megatron-transformers.gif" width="300" alt="Megatron Walking">
 </p>
 
 <h1 align="center">🔥 I AM <span style="color:#FFD700;">MEGATRON</span> 🔥</h1>
