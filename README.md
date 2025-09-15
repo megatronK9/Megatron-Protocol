@@ -20,10 +20,10 @@
   <img src="https://img.shields.io/github/package-json/v/megatronK9/Megatron-Runner?color=FFD700&label=VERSION&style=for-the-badge" alt="Version">
 <img src="https://img.shields.io/github/last-commit/megatronKMegatron-Runnerer?color=blue&style=for-the-badge" alt="Last Updated">
 
-  <img src="https://img.shields.io/badge/Status-DEPLOYING-orange?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Status-DEPLOYING-blue?style=for-the-badge" alt="Status">
 </p>
 
-<img src="https://giphy.com/gifs/transformers-80s-im1xKpjEwdQuk/giphy.gif" width="300"/>
+<img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="300"/>
 
 ![🔥](https://img.shields.io/badge/🔥-Me/gatronK9-red?style=for-the-badge)
 
