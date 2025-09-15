@@ -68,7 +68,7 @@ Scan the QR code in your terminal to link your WhatsApp. Megatron K9 will awaken
 
 ---
 ```
-🤖 Commands
+👑 MEGATRON K9 — RUNNER COMMANDS
 
 | Command           | Description                          |
 |------------------|--------------------------------------|
@@ -79,13 +79,6 @@ Scan the QR code in your terminal to link your WhatsApp. Megatron K9 will awaken
 | !roastme        | Drops a random roast                 |
 | !selfdestruct   | Deletes bot messages from chat       |
 
-👑 MEGATRON K9 — RUNNER COMMANDS
-
-📜 PUBLIC COMMANDS
-.menu / .help   → Show all available commands
-.ping           → Check bot speed (latency)
-.owner          → Get Overlord contact link
-.version        → Show current bot version
 
 ⚡ HOW TO USE
 • Prefix every command with a dot `.`
