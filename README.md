@@ -14,11 +14,8 @@
   <img src="https://img.shields.io/github/package-json/v/megatronK9/Megatron-Runner?color=FFD700&label=VERSION&style=for-the-badge">
   <img src="https://img.shields.io/github/last-commit/megatronK9/Megatron-Runner?color=blue&style=for-the-badge">
   <img src="https://img.shields.io/badge/Status-LIVE-brightgreen?style=for-the-badge">
-</p>l
-
-<p align="center">
-  <img src="https://media.tenor.com/2ZfZkqLxRZIAAAAC/transformers-optimus-prime-the-legend-exists.gif" width="300" alt="The Legend Exists">
 </p>
+
 
 ![🔥](https://img.shields.io/badge/🔥-Me/gatronK9-red?style=for-the-badge)
 
