@@ -50,14 +50,6 @@
 - 🧨 Command modules that slap harder than a meme war
 
 ---
-👑 MEGATRON K9 — COMMANDS
-Mode: SAVAGE | Status: LIVE | Version: vX.X.X
-
-📜 PUBLIC COMMANDS
-.menu / .help   → Show all available commands
-.ping           → Check bot speed (latency)
-.owner          → Get Overlord contact link
-.version        → Show current bot version
 
 ⚡ HOW TO USE
 • Prefix every command with a dot `.`
@@ -87,6 +79,7 @@ Scan the QR code in your terminal to link your WhatsApp. Megatron K9 will awaken
 | !roastme        | Drops a random roast                 |
 | !selfdestruct   | Deletes bot messages from chat       |
 
+```
 👑 MEGATRON K9 — RUNNER COMMANDS
 Mode: SAVAGE | Status: LIVE | Version: vX.X.X
 
