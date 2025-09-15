@@ -73,17 +73,16 @@ npm install --production
 #Link
 node megatron-locked.js
 
-###Keep alive with pm2
+Scan the QR code in your terminal to link your WhatsApp. Megatron K9 will awaken and begin its reign.
+
+###Keep alive with pm2 (optional)
 npm install -g pm2
 pm2 start megatron-locked.js --name megatron
 pm2 save
 
-#RECEIVE AND CHECK FOR UPDATE !
+(#RECEIVE AND CHECK FOR UPDATE !)
+
 ./update.sh
-
-Scan the QR code in your terminal to link your WhatsApp. Megatron K9 will awaken and begin its reign.
-
-Scan the QR code in your terminal to link your WhatsApp. Megatron K9 will awaken and begin its reign.
 
 ---
 ```
