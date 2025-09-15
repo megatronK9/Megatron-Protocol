@@ -50,12 +50,33 @@
 - 🧨 Command modules that slap harder than a meme war
 
 ---
+## ⚡ MEGATRON‑RUNNER — COMMAND INDEX
 
-⚡ HOW TO USE
-• Prefix every command with a dot `.`
-• Commands are NOT case‑sensitive
-• Works in private chat or groups
-• Example: .ping
+> Mode: SAVAGE  
+> Status: LIVE  
+> Version: vX.X.X (auto-updates from package.json)
+
+---
+
+### 🧑‍🚀 Runner‑Only Commands
+| Command            | Description |
+|--------------------|-------------|
+| `.menu` / `.help`  | Show the full public command menu |
+| `.ping`            | Latency check — returns response time |
+| `.owner`           | Show Overlord contact link |
+| `.version`         | Bot version from package.json |
+
+---
+
+### ⚡ How to Use
+- Prefix every command with a dot `.`
+- Commands are NOT case-sensitive
+- Works in private chat or groups
+- Example: `.ping`
+
+---
+
+###  Deploy Ritual
 ---
 
 ## 🛠️ Setup
@@ -86,7 +107,7 @@ pm2 save
 
 ---
 ```
-👑 MEGATRON K9 — RUNNER COMMANDS
+👑 MEGATRON K9 — OTHER COMMANDS
 
 | Command           | Description                          |
 |------------------|--------------------------------------|
@@ -97,19 +118,10 @@ pm2 save
 | !roastme        | Drops a random roast                 |
 | !selfdestruct   | Deletes bot messages from chat       |
 
-
-⚡ HOW TO USE
-• Prefix every command with a dot `.`
-• Commands are NOT case‑sensitive
-• Works in private chat or groups
-• Example: .ping
-
 ---
 
 
 !QR Scan
-!Meme Reply
-!Command Showcase
 
 ---
 
