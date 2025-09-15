@@ -3,7 +3,7 @@
   <img src="https://media.tenor.com/0W0zj5zvZyIAAAAC/transformers-logo.gif" width="140" alt="Transformers Logo">
 </p>
 
-<h1 align="center" style="color:#ff0000;">🔥 I AM <span style="color:#FFD700;">MEGATRON</span> 🔥</h1>
+<h1 align="center">🔥 I AM <span style="color:#FFD700;">MEGATRON</span> 🔥</h1>
 
 <p align="center">
   <a href="https://github.com/megatronK9/Megatron-Runner/blob/main/LICENSE">
@@ -17,12 +17,12 @@
   </a>
   <img src="https://img.shields.io/badge/Mode-SAVAGE-black?style=for-the-badge" alt="Mode">
   <img src="https://img.shields.io/github/package-json/v/megatronK9/Megatron-Runner?color=FFD700&label=VERSION&style=for-the-badge" alt="Version">
-  <img src="https://img.shields.io/badge/Status-DEPLOYING-blue?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Status-DEPLOYING-orange?style=for-the-badge" alt="Status">
 </p>
 
 <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="300"/>
 
-![🔥](https://img.shields.io/badge/🔥-MegatronK9-red?style=for-the-badge)
+![🔥](https://img.shields.io/badge/🔥-Me/gatronK9-red?style=for-the-badge)
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MegatronK9&show_icons=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MegatronK9&layout=compact&theme=radical)
