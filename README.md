@@ -23,11 +23,9 @@
   <img src="https://img.shields.io/badge/Status-DEPLOYING-orange?style=for-the-badge" alt="Status">
 </p>
 
-<p align="center">
-  <img src="https://media.tenor.com/0W0zj5zvZyIAAAAC/transformers-logo.gif" width="140" alt="Transformers Emblem">
-</p>
-
 <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="300"/>
+
+<img src="https://giphy.com/gifs/transformers-80s-im1xKpjEwdQuk/giphy.gif" width="300"/>
 
 ![🔥](https://img.shields.io/badge/🔥-Me/gatronK9-red?style=for-the-badge)
 
