@@ -2,22 +2,32 @@
 set -euo pipefail
 
 clear
+# === Overlord Crest ===
 echo "╔══════════════════════════════════════════════════════════════════╗"
-echo "║   Ⓜ️  MEGATRON K9 — UPDATE                                ║"
+echo "║                                                                  ║"
+echo "║      ████╗ ███████╗ ██████╗ ███████╗████████╗ ██████╗ ███╗   ██╗  ║"
+echo "║      ██╔██╗██╔════╝██╔═══██╗██╔════╝╚══██╔══╝██╔═══██╗████╗  ██║  ║"
+echo "║      ██║╚██║█████╗  ██║   ██║███████╗   ██║   ██║   ██║██╔██╗ ██║  ║"
+echo "║      ██║ ╚██║██╔══╝  ██║   ██║╚════██║   ██║   ██║   ██║██║╚██╗██║  ║"
+echo "║      ██║  ╚██║███████╗╚██████╔╝███████║   ██║   ╚██████╔╝██║ ╚████║  ║"
+echo "║      ╚═╝   ╚═╝╚══════╝ ╚═════╝ ╚══════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝  ║"
+echo "║                                                                  ║"
+echo "║                  Ⓜ️  MEGATRON PROTOCOL ACTIVE  Ⓜ️                 ║"
+echo "║                                                                  ║"
 echo "╚══════════════════════════════════════════════════════════════════╝"
 
 # 1️⃣ Show current version
 if [ -f package.json ]; then
   CURR_VER=$(node -p "require('./package.json').version" 2>/dev/null || echo "unknown")
-  echo "📦 Current Runner Version: v$CURR_VER"
+  echo "📦 Current Protocol Version: v$CURR_VER"
 else
-  echo "📦 Current Runner Version: unknown"
+  echo "📦 Current Protocol Version: unknown"
 fi
 
 # 2️⃣ Reset repo (delete everything except .git)
-echo "🧹 Resetting Runner repo..."
+echo "🧹 Resetting Protocol repo..."
 find . -mindepth 1 -maxdepth 1 ! -name ".git" -exec rm -rf {} +
-echo "✅ Repo cleaned."
+echo "✅ Protocol repo cleaned."
 
 # 3️⃣ Pull latest from GitHub
 echo "📥 Pulling latest sealed build..."
@@ -35,7 +45,7 @@ else
 fi
 
 # 5️⃣ Restart bot
-echo "🚀 Restarting Megatron..."
+echo "🚀 Restarting Megatron Protocol..."
 if command -v pm2 >/dev/null; then
   pm2 startOrReload ecosystem.config.js 2>/dev/null || pm2 restart megatron 2>/dev/null || pm2 start protocol-core.js --name megatron
   pm2 save
@@ -49,8 +59,10 @@ fi
 NEW_VER=$(node -p "require('./package.json').version" 2>/dev/null || echo "unknown")
 echo ""
 echo "╔══════════════════════════════════════════════════════════════════╗"
-echo "║   ✅ UPDATE COMPLETE — MEGATRON ONLINE                           ║"
+echo "║   ✅ UPDATE COMPLETE — MEGATRON PROTOCOL ONLINE                  ║"
 echo "║   🔖 Updated Version: v$NEW_VER                                  ║"
 echo "║   Ⓜ️  Overlord Crest: ACTIVE                                     ║"
 echo "╚══════════════════════════════════════════════════════════════════╝"
+echo ""
+echo "🔥 Megatron Protocol is now live — sealed, viral, unstoppable."
 echo -e "\a"
