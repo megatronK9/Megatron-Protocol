@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/megatron-logo.gif" alt="Megatron Logo" width="300"/>
+</p>
+
 # 🛡️ MEGATRON K9 — OVERLORD EDITION
 
 > Meme‑forged ⚡ Chaos‑tempered ⚡ Precision‑engineered
@@ -8,25 +12,25 @@
 [![Stars](https://img.shields.io/github/stars/megatronK9/Megatron-Runner?color=gold&logo=github)](https://github.com/megatronK9/Megatron-Runner/stargazers)
 [![License](https://img.shields.io/github/license/megatronK9/Megatron-Runner?color=green)](LICENSE)
 
-![🔥](https://img.shields.io/badge/🔥-MegatronK9-red?>
+![🔥](https://img.shields.io/badge/🔥-MegatronK9-red)
 
-![GitHub Stats](https://github-readme-stats.vercel.ap>
-![Top Languages](https://github-readme-stats.vercel.a>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MegatronK9&show_icons=true&theme=dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MegatronK9&layout=compact&theme=dark)
 
-![Snake animation](https://github.com/MegatronK9/Mega>
+![Snake animation](https://github.com/MegatronK9/Megatron-Runner/blob/output/github-contribution-grid-snake.svg)
 
-[![Twitter](https://img.shields.io/badge/Twitter-@Meg>
+[![Twitter](https://img.shields.io/badge/Twitter-@MegatronK9-blue?logo=twitter)](https://twitter.com/MegatronK9)
+[![YouTube](https://img.shields.io/badge/YouTube-@MegatronK9-red?logo=youtube)](https://youtube.com/@MegatronK9)
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40"/>
+
+![Deploy Status](https://github.com/megatronK9/Megatron-Runner/actions/workflows/deploy.yml/badge.svg)
+
 ---
-[![youtube](https://img.shields.io/badge/youtube-@Meg>
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devico>
+## ⚡ Overlord protocol online
 
-![Deploy Status](https://github.com/MegatronK9/Megatr>
----
-
-## ⚡ OVERLORD PROTOCOL ONLINE
-
-Megatron K9 is not just a bot — it’s a **legendary Overlord protocol**.  
+Megatron K9 is not just a bot — it’s a legendary Overlord protocol.  
 Every deploy is unleashed with cinematic precision.  
 Mortals may run it, but only the Overlord commands it.
 
@@ -34,7 +38,7 @@ Mortals may run it, but only the Overlord commands it.
 
 ## 📂 Arsenal
 
-### Public Commands (/)
+### Public commands (/)
 - /menu — Show the arsenal  
 - /owner — Reveal the Overlord  
 - /ping — Latency + timestamp  
@@ -49,7 +53,7 @@ Mortals may run it, but only the Overlord commands it.
 - /status — Current toggles  
 - /repo — Runner repo + guide  
 
-### Overlord Commands (. — Owner Only)
+### Overlord commands (. — owner only)
 - .autoview on/off — Toggle status auto‑view  
 - .autoreact on/off — Toggle status auto‑react  
 - .delete N — Delete last N bot messages  
@@ -63,7 +67,7 @@ Mortals may run it, but only the Overlord commands it.
 
 ---
 
-## 🚀 Quick Deploy (Runner)
+## 🚀 Quick deploy (Runner)
 
 ```bash
 pkg update && pkg upgrade
