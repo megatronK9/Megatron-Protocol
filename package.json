@@ -9,7 +9,7 @@
     "qrcode-terminal": "^0.12.0"
   },
   "name": "home",
-  "version": "2.0.26",
+  "version": "2.0.27",
   "description": "",
   "main": "megatron.js",
   "scripts": {
