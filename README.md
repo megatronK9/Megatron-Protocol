@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/megatron-logo.gif" alt="Megatron Logo" width="300"/>
+  <img src="https://media.giphy.com/media/im1xKpjEwdQuk/giphy.gif" width="300" alt="Transformers Logo">
 </p>
 
 # 🛡️ MEGATRON K9 — OVERLORD EDITION
