@@ -8,12 +8,26 @@
 [![Stars](https://img.shields.io/github/stars/megatronK9/Megatron-Runner?color=gold&logo=github)](https://github.com/megatronK9/Megatron-Runner/stargazers)
 [![License](https://img.shields.io/github/license/megatronK9/Megatron-Runner?color=green)](LICENSE)
 
+![🔥](https://img.shields.io/badge/🔥-MegatronK9-red?>
+
+![GitHub Stats](https://github-readme-stats.vercel.ap>
+![Top Languages](https://github-readme-stats.vercel.a>
+
+![Snake animation](https://github.com/MegatronK9/Mega>
+
+[![Twitter](https://img.shields.io/badge/Twitter-@Meg>
+---
+[![youtube](https://img.shields.io/badge/youtube-@Meg>
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devico>
+
+![Deploy Status](https://github.com/MegatronK9/Megatr>
 ---
 
 ## ⚡ OVERLORD PROTOCOL ONLINE
 
 Megatron K9 is not just a bot — it’s a **legendary Overlord protocol**.  
-Every deploy is sealed, obfuscated, and unleashed with cinematic precision.  
+Every deploy is unleashed with cinematic precision.  
 Mortals may run it, but only the Overlord commands it.
 
 ---
