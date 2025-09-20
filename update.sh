@@ -1,34 +1,24 @@
 #!/bin/bash
 
-# === Overlord Runner Update Script ===
-# Updates the runner repo, installs dependencies, and restarts the bot.
+echo "🔄 [$(date +'%H:%M:%S')] Checking for Megatron updates..."
 
-RUNNER_PATH="$HOME/Megatron-Runner"
-
-echo "🔄 [$(date '+%H:%M:%S')] Checking for Megatron updates..."
-
-# 1️⃣ Go to runner repo
-cd "$RUNNER_PATH" || { echo "❌ Runner repo not found at $RUNNER_PATH"; exit 1; }
-
-# 2️⃣ Stop any running instance
+# Stop any running instance
 if command -v pm2 >/dev/null 2>&1; then
     pm2 stop megatron >/dev/null 2>&1
 fi
 
-# 3️⃣ Pull latest code
+# Pull latest code from your repo
 git reset --hard
-git pull origin main --rebase || { echo "❌ Failed to pull runner repo"; exit 1; }
+git pull origin main
 
-# 4️⃣ Install dependencies
-echo "📦 Installing dependencies..."
-npm install --production || { echo "❌ npm install failed"; exit 1; }
+# Install any new dependencies
+npm install --omit=dev
 
-# 5️⃣ Restart bot
-echo "🚀 Restarting Megatron..."
+# Restart bot
 if command -v pm2 >/dev/null 2>&1; then
     pm2 start megatron-locked.js --name megatron
     pm2 save
-    echo "✅ [$(date '+%H:%M:%S')] Megatron updated and running under PM2."
+    echo "✅ Megatron updated and running under PM2."
 else
     echo "⚠️ PM2 not found — starting bot in foreground."
     node megatron-locked.js
