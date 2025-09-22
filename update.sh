@@ -2,23 +2,25 @@
 set -euo pipefail
 
 clear
+
 # === Overlord Crest ===
-echo "╔══════════════════════════════════════════════════════════════════╗"
-echo "║                                                                  ║"
-echo "║      ████╗ ███████╗ ██████╗ ███████╗████████╗ ██████╗ ███╗   ██╗  ║"
-echo "║      ██╔██╗██╔════╝██╔═══██╗██╔════╝╚══██╔══╝██╔═══██╗████╗  ██║  ║"
-echo "║      ██║╚██║█████╗  ██║   ██║███████╗   ██║   ██║   ██║██╔██╗ ██║  ║"
-echo "║      ██║ ╚██║██╔══╝  ██║   ██║╚════██║   ██║   ██║   ██║██║╚██╗██║  ║"
-echo "║      ██║  ╚██║███████╗╚██████╔╝███████║   ██║   ╚██████╔╝██║ ╚████║  ║"
-echo "║      ╚═╝   ╚═╝╚══════╝ ╚═════╝ ╚══════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝  ║"
-echo "║                                                                  ║"
-echo "║                  Ⓜ️  MEGATRON PROTOCOL ACTIVE  Ⓜ️                 ║"
-echo "║                                                                  ║"
-echo "╚══════════════════════════════════════════════════════════════════╝"
+cat <<'EOF'
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║      ████╗ ███████╗ ██████╗ ███████╗██████╗  ██████╗ ███╗   █║
+║      ██╔██╗██╔════╝██╔═══██╗██╔════╝╚══██╔══╝██╔═══██╗████╗  █║
+║      ██║╚██║█████╗  ██║   ██║███████╗   ██║   ██║   ██║██╔██╗█║
+║      ██║ ╚██║██╔══╝  ██║   ██║╚════██║   ██║   ██║   ██║██║╚██║
+║      ██║  ╚██║███████╗╚██████╔╝███████║   ██║   ╚██████╔╝██║ ╚═╝
+║      ╚═╝   ╚═╝╚══════╝ ╚═════╝ ╚══════╝   ╚═╝    ╚═════╝ ╚═╝    
+║                                                              ║
+║                  Ⓜ️  MEGATRON PROTOCOL ACTIVE                ║
+╚══════════════════════════════════════════════════════════════╝
+EOF
 
 # 1️⃣ Show current version
 if [ -f package.json ]; then
-  CURR_VER=$(node -p "require('./package.json').version" 2>/dev/null || echo "unknown")
+  CURR_VER=$(node -p "require('./package.json').version" || echo "unknown")
   echo "📦 Current Protocol Version: v$CURR_VER"
 else
   echo "📦 Current Protocol Version: unknown"
@@ -36,18 +38,20 @@ git reset --hard origin/main
 
 # 4️⃣ Install dependencies
 echo "📦 Installing dependencies..."
-if command -v pnpm >/dev/null; then
-  pnpm i --prod
-elif command -v yarn >/dev/null; then
+if command -v yarn >/dev/null; then
   yarn install --production
-else
-  npm ci --only=production || npm i --only=production
+elif command -v npm >/dev/null; then
+  if [ -f package-lock.json ]; then
+    npm ci --only=production
+  else
+    npm install --only=production
+  fi
 fi
 
 # 5️⃣ Restart bot
 echo "🚀 Restarting Megatron Protocol..."
 if command -v pm2 >/dev/null; then
-  pm2 startOrReload ecosystem.config.js 2>/dev/null || pm2 restart megatron 2>/dev/null || pm2 start protocol-core.js --name megatron
+  pm2 startOrReload ecosystem.config.js --update-env || pm2 start ecosystem.config.js
   pm2 save
 else
   echo "⚠️ PM2 not found. Starting raw node..."
@@ -56,13 +60,15 @@ else
 fi
 
 # 6️⃣ Show updated version
-NEW_VER=$(node -p "require('./package.json').version" 2>/dev/null || echo "unknown")
+NEW_VER=$(node -p "require('./package.json').version" || echo "unknown")
 echo ""
-echo "╔══════════════════════════════════════════════════════════════════╗"
-echo "║   ✅ UPDATE COMPLETE — MEGATRON PROTOCOL ONLINE                  ║"
-echo "║   🔖 Updated Version: v$NEW_VER                                  ║"
-echo "║   Ⓜ️  Overlord Crest: ACTIVE                                     ║"
-echo "╚══════════════════════════════════════════════════════════════════╝"
+cat <<EOF
+╔══════════════════════════════════════════════════════════════╗
+║   ✅ UPDATE COMPLETE — MEGATRON PROTOCOL                     ║
+║   🔖 Updated Version: v$NEW_VER                              ║
+║   Ⓜ️  Overlord Crest: ACTIVE                                 ║
+╚══════════════════════════════════════════════════════════════╝
+EOF
 echo ""
-echo "🔥 Megatron Protocol is now live — sealed, viral, unstoppable."
+echo "🔥 Megatron Protocol is now live — sealed, synced, unstoppable."
 echo -e "\a"
