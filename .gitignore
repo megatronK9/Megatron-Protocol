@@ -1,3 +1,4 @@
+# Protect Overlord core and sensitive artifacts
 megatron.js
 deploy_runner.sh
 megatron_build/
@@ -6,6 +7,26 @@ megatron_igbot/
 .env.*
 *.log
 auth/
-temp/
-dist/
 secrets/
+dist/
+temp/
+cache/
+.DS_Store
+Thumbs.db
+
+# Node modules and lock files (optional to keep repo light)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local runtime artifacts
+*.pid
+*.seed
+*.tmp
+*.bak
+
+# Editors/OS junk
+.vscode/
+.idea/
+*.swp
