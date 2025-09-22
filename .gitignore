@@ -1,0 +1,11 @@
+megatron.js
+deploy_runner.sh
+megatron_build/
+megatron_igbot/
+.env
+.env.*
+*.log
+auth/
+temp/
+dist/
+secrets/
