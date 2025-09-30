@@ -93,8 +93,8 @@ Mortals may run it, but only the Overlord commands it.
 ```bash
 pkg update && pkg upgrade
 pkg install nodejs-lts git
-git clone https://github.com/megatronK9/Megatron-Runner.git
-cd Megatron-Runner
+git clone https://github.com/megatronK9/Megatron-Protocol.git
+cd Megatron-Protocol
 chmod +x update.sh
 ./update.sh
 pm2 logs megatron
